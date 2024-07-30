@@ -1,4 +1,5 @@
 from datetime import datetime
+import pkg_resources
 
 now = datetime.now()
 version = pkg_resources.get_distribution("virtualenv").version
