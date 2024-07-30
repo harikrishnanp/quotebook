@@ -29,7 +29,9 @@ jobs:
       - name: Install virtualenv
         run: |
           pip install virtualenv
-
+      - name: virtualenv version
+        run: |
+          virtualenv --version
       - name: Run Python script
         run: |
           python main.py
