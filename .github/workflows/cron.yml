@@ -11,8 +11,8 @@ on:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
-  schedule:
-    - cron: "*/5 * * * *" # This runs the job every 5 minutes
+  # schedule:
+    # - cron: "*/5 * * * *" # This runs the job every 5 minutes
 
 jobs:
   run-schedule:
